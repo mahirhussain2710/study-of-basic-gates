@@ -66,23 +66,32 @@ Y= A⊕B
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by:MAHIR HUSSAIN S
- RegisterNumber: 212223040109
+```
+Developed by:HAMZA FAROOQUE 
+REGISTER NUMBER:212223040054
+ 
+module logicgates(a,b,andgate,orgate,notgate,nandgate,norgate,xorgate,xnorgate);
+input a,b;
+output andgate,orgate,notgate,nandgate,norgate,xorgate,xnorgate;
+and(andgate,a,b);
+or(orgate,a,b);
+not(notgate,a);
+nand(nandgate,a,b);
+nor(norgate,a,b);
+xor(xorgate,a,b);
+xnor(xnorgate,a,b);
+endmodule
+```
+ 
+**Logic symbol & Truthtable**![image](https://github.com/2005moham/study-of-basic-gates/assets/151419495/8e5eae28-3720-4c3e-9db6-74234b944c91)
 
- ## PROGRAM
- ![Screenshot 2024-03-13 153354](https://github.com/04Varsha/study-of-basic-gates/assets/149035374/91cd9c06-dc03-4c8c-9aca-5f9e3eab0189)
 
-## Logic symbol & Truthtable
-![Screenshot 2024-03-13 153758](https://github.com/04Varsha/study-of-basic-gates/assets/149035374/f9705d15-097d-41f0-938e-727ac8c817fe)
+**RTL realization Output:** ![image](https://github.com/2005moham/study-of-basic-gates/assets/151419495/1fff3314-18b4-4097-b965-81bcc4911018)
 
-## RTL realization 
-![Screenshot 2024-03-13 152531](https://github.com/04Varsha/study-of-basic-gates/assets/149035374/523d3d1f-416e-46fc-b087-8e2e92053a69)
 
-## Output:
-![Screenshot 2024-03-13 153234](https://github.com/04Varsha/study-of-basic-gates/assets/149035374/f207de9e-70e8-480c-805b-7bba6eba26d7)
+**
 
-## Result: 
-Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
+**Result:**SUCCESSFULLY EXECUTED
 
 
 
